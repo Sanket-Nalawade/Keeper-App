@@ -1,0 +1,43 @@
+body {
+  background-color: #eeeeee;
+  margin: 0;
+}
+header {
+  background-color: #ffc300;
+}
+header h1 {
+  margin: 0;
+  font-family: "Montserrat";
+  color: #ffffff;
+  padding: 0.5rem 2rem;
+}
+.note {
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 1.5rem 0 0 1.5rem;
+  width: 300px;
+  height: auto;
+  border-radius: 7px;
+}
+.note h1 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.note p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+.note p,
+.note h1 {
+  margin-left: 1rem;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+footer p {
+  text-align: center;
+  color: #ffffff;
+}
